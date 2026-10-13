@@ -3,7 +3,6 @@
 
 An ESP32-based robotic vehicle construction project involving PCB assembly, soldering, mechanical integration and DC motor control. The project demonstrates the development of a mobile robot from individual electronic and mechanical components through to programmed movement using Arduino C++.
 
-
 ## Demo / Images
 
 ### PCB Assembly
@@ -34,7 +33,6 @@ Assembled robotic vehicle incorporating the ESP32, PCB, motors and chassis.
 
 Further construction photographs, the ESP32 pinout and supporting documentation are available in the [docs folder](docs/README.md).
 
-
 ## Hardware
 
 - ESP32 microcontroller
@@ -48,11 +46,20 @@ Further construction photographs, the ESP32 pinout and supporting documentation 
 - Battery and power connections
 - Surface-mount and through-hole electronic components
 
-### Motor control pin map
+### Motor Control Pin Map
 
 The Arduino program uses ESP32 GPIO pins to control the speed and direction of two DC motors.
 
-The exact connections are documented in the original EEEbot schematic and Arduino program.
+| Motor | Function | ESP32 GPIO |
+|---|---|---|
+| Motor A | PWM speed control (enA) | GPIO23 |
+| Motor A | Direction control (Ina) | GPIO25 |
+| Motor A | Direction control (Inb) | GPIO26 |
+| Motor B | PWM speed control (enB) | GPIO22 |
+| Motor B | Direction control (Inc) | GPIO27 |
+| Motor B | Direction control (Ind) | GPIO33 |
+
+These pin assignments are taken from the Arduino motor-control program used in the project.
 
 ## How it works
 
