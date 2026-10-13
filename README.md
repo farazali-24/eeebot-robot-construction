@@ -3,9 +3,37 @@
 
 An ESP32-based robotic vehicle construction project involving PCB assembly, soldering, mechanical integration and DC motor control. The project demonstrates the development of a mobile robot from individual electronic and mechanical components through to programmed movement using Arduino C++.
 
+
 ## Demo / Images
 
-Construction photographs, the ESP32 pinout and motor-control flowchart are available in the `docs/` folder.
+### PCB Assembly
+
+Surface-mount components installed on the EEEbot PCB.
+
+<img src="docs/pcb-surface-mount.jpg" alt="EEEbot PCB Assembly" width="500">
+
+### Motor Control Flowchart
+
+Flowchart illustrating the motor-control logic implemented using the ESP32.
+
+<img src="docs/motor-control-flowchart.jpg" alt="EEEbot Motor Control Flowchart" width="450">
+
+### Front Chassis Assembly
+
+Assembly of the front chassis, including the steering servo and mechanical components.
+
+<img src="docs/front-chassis-assembly.jpg" alt="EEEbot Front Chassis Assembly" width="500">
+
+### Completed EEEbot
+
+Assembled robotic vehicle incorporating the ESP32, PCB, motors and chassis.
+
+<img src="docs/robot-assembled-side.jpg" alt="Completed EEEbot" width="500">
+
+### Additional Documentation
+
+Further construction photographs, the ESP32 pinout and supporting documentation are available in the [docs folder](docs/README.md).
+
 
 ## Hardware
 
